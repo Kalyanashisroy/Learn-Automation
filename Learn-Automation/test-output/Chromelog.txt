@@ -1,0 +1,219 @@
+[1587484617.374][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 48021
+[1587484617.375][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587484619.627][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1587484619.648][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1587484619.649][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1587484619.674][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\KALYAN~1\AppData\Local\Temp\scoped_dir3988_1514137174\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\KALYAN~1\AppData\Local\Temp\scoped_dir3988_2018586558" data:,
+[1587484621.338][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1587484622.410][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.113",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\KALYAN~1\\AppData\\Local\\Temp\\scoped_dir3988_2018586558"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55301"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a16ada1505b32d99227f4f2f8b1367f1"
+}
+[1587484622.809][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] COMMAND Navigate {
+   "url": "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+}
+[1587484622.810][INFO]: Waiting for pending navigations...
+[1587484622.815][INFO]: Done waiting for pending navigations. Status: ok
+[1587484624.158][INFO]: Waiting for pending navigations...
+[1587484624.358][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484624.464][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484624.566][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484624.667][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484624.772][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484624.874][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484624.978][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.083][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.185][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.287][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.389][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.494][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.596][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.699][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.832][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484625.935][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484626.038][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484626.377][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484626.480][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484626.583][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484626.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484626.791][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484626.877][INFO]: Done waiting for pending navigations. Status: ok
+[1587484626.883][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] RESPONSE Navigate
+[1587484626.906][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#txtUsername"
+}
+[1587484626.906][INFO]: Waiting for pending navigations...
+[1587484626.907][INFO]: Done waiting for pending navigations. Status: ok
+[1587484626.934][INFO]: Waiting for pending navigations...
+[1587484626.936][INFO]: Done waiting for pending navigations. Status: ok
+[1587484626.936][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9c27db1d-729c-491c-be0b-fd44431609f6"
+}
+[1587484626.997][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] COMMAND TypeElement {
+   "id": "9c27db1d-729c-491c-be0b-fd44431609f6",
+   "text": "admin",
+   "value": [ "a", "d", "m", "i", "n" ]
+}
+[1587484626.997][INFO]: Waiting for pending navigations...
+[1587484626.999][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.208][INFO]: Waiting for pending navigations...
+[1587484627.211][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.211][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] RESPONSE TypeElement
+[1587484627.238][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='txtPassword']"
+}
+[1587484627.239][INFO]: Waiting for pending navigations...
+[1587484627.240][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.268][INFO]: Waiting for pending navigations...
+[1587484627.269][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.269][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "418190ec-3f8b-4912-96a8-db11771692be"
+}
+[1587484627.281][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] COMMAND TypeElement {
+   "id": "418190ec-3f8b-4912-96a8-db11771692be",
+   "text": "admin123",
+   "value": [ "a", "d", "m", "i", "n", "1", "2", "3" ]
+}
+[1587484627.281][INFO]: Waiting for pending navigations...
+[1587484627.282][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.483][INFO]: Waiting for pending navigations...
+[1587484627.485][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.485][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] RESPONSE TypeElement
+[1587484627.497][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#btnLogin"
+}
+[1587484627.497][INFO]: Waiting for pending navigations...
+[1587484627.499][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.525][INFO]: Waiting for pending navigations...
+[1587484627.527][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.527][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "af6e55e8-3011-44d1-8098-f6737751ab21"
+}
+[1587484627.542][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] COMMAND ClickElement {
+   "id": "af6e55e8-3011-44d1-8098-f6737751ab21"
+}
+[1587484627.542][INFO]: Waiting for pending navigations...
+[1587484627.544][INFO]: Done waiting for pending navigations. Status: ok
+[1587484627.698][INFO]: Waiting for pending navigations...
+[1587484629.062][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484629.164][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484629.277][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484629.536][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484629.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484629.741][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587484632.019][INFO]: Done waiting for pending navigations. Status: ok
+[1587484632.019][INFO]: [a16ada1505b32d99227f4f2f8b1367f1] RESPONSE ClickElement

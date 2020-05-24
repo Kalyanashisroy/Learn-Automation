@@ -1,0 +1,6 @@
+GeckoDriver=D:\\Browser\\geckodriver-v0.15.0-win64\\geckodriver.exe
+ChromeDriver=D:\\Browser\\chromedriver_win32\\chromedriver.exe
+OperaDriver=D:\\Browser\\operadriver_win64\\operadriver_win64\\operadriver.exe
+IEDriver=D:\\Browser\\IEDriverServer_x64_3.3.0\\IEDriverServer.exe
+URL=https://learn-automation.com
+Excelpath=

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.TestNGListeners.MyFristTestCaseClass"/>
+      <class name="com.FailedTestCases.TestCase2"/>
+      <class name="com.Grouping.GroupingInTestNG"/>
+      <class name="com.FailedTestCases.TestCase1"/>
+      <class name="com.Configuration.TestSeleniumBlog"/>
+      <class name="com.FailedTestCases.TestCase3"/>
+      <class name="com.Configuration.TestSeleniumChrome"/>
+      <class name="com.Utility.ExcelData"/>
+      <class name="com.Utility.VerifyTitle1"/>
+      <class name="com.TestNGListeners.MyFristTestCaseClassSuite"/>
+      <class name="com.ExtentReport.Selenium.ExtentReportDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

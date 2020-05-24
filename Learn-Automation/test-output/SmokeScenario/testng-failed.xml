@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeScenario]">
+  <test name="Sprint(failed)">
+    <classes>
+      <class name="com.FailedTestCases.TestCase3">
+        <methods>
+          <include name="testWordPress"/>
+        </methods>
+      </class> <!-- com.FailedTestCases.TestCase3 -->
+    </classes>
+  </test> <!-- Sprint(failed) -->
+</suite> <!-- Failed suite [SmokeScenario] -->

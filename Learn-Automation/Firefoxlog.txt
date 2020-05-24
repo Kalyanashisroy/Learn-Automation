@@ -1,0 +1,8 @@
+1587809446035	geckodriver	INFO	Listening on 127.0.0.1:43684
+1587809447144	mozprofile::profile	INFO	Using profile path C:\Users\KALYAN~1\AppData\Local\Temp\rust_mozprofile.OEbzByvxAeAc
+1587809447148	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1587809447160	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63636
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs
+[GFX1-]: VendorIDMismatch 0x8086 0x1414
+1587809489102 Marionette: Element is missing an accesible name -> id: txtUsername, tagName: INPUT, className: 
+1587809493976 Marionette: Element does not have a correct accessibility role and may not be manipulated via the accessibility API -> id: txtPassword, tagName: INPUT, className: 

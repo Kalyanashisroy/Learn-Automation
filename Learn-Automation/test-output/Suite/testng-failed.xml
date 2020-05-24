@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="FirefoxTestCase(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Utility.VerifyTitle1">
+        <methods>
+          <include name="verifyTitlePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Utility.VerifyTitle1 -->
+    </classes>
+  </test> <!-- FirefoxTestCase(failed) -->
+</suite> <!-- Failed suite [Suite] -->

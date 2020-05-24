@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16336" started-at="2020-05-09T15:12:58Z" finished-at="2020-05-09T15:13:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16336" started-at="2020-05-09T15:12:58Z" finished-at="2020-05-09T15:13:15Z">
+      <class name="com.Configuration.TestSeleniumChrome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Configuration.TestSeleniumChrome@617c74e5]" name="setUp" is-config="true" duration-ms="31" started-at="2020-05-09T20:42:58Z" finished-at="2020-05-09T20:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testChrome()[pri:0, instance:com.Configuration.TestSeleniumChrome@617c74e5]" name="testChrome" duration-ms="16244" started-at="2020-05-09T20:42:58Z" finished-at="2020-05-09T20:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChrome -->
+      </class> <!-- com.Configuration.TestSeleniumChrome -->
+      <class name="com.Configuration.TestSeleniumBlog">
+        <test-method status="PASS" signature="testConfig()[pri:0, instance:com.Configuration.TestSeleniumBlog@6537cf78]" name="testConfig" duration-ms="19" started-at="2020-05-09T20:42:58Z" finished-at="2020-05-09T20:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfig -->
+      </class> <!-- com.Configuration.TestSeleniumBlog -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

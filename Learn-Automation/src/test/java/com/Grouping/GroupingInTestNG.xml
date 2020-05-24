@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grouping in TestNG">
+	<groups>
+		<run>
+			<include name="sanity"></include>
+			<include name="regression"></include>
+			<include name="functional"></include>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+	<test name="Sprint">
+		<classes>
+			<class name="com.Grouping.GroupingInTestNG"></class>
+		</classes>
+	</test>
+</suite>
