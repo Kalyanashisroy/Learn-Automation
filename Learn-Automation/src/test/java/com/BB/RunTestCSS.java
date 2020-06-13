@@ -6,14 +6,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class RunTest {
+public class RunTestCSS {
 	WebDriver driver;
 	@Test
 	public void verifyJFPP() throws InterruptedException {
 		JFPP jfpp=new JFPP();
-		System.setProperty("webdriver.chrome.driver", "D:\\Browser\\chromedriver_win32\\chromedriver.exe");
+		/*System.setProperty("webdriver.gecko.driver", "D:\\Browser\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+		driver=new FirefoxDriver();*/
+		System.setProperty("webdriver.chrome.driver", "D:\\Browser\\chromedriver_win32_83\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

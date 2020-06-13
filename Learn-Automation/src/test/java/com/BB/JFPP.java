@@ -12,17 +12,17 @@ public class JFPP {
 		
 	}
 	void EnterCSSValue1_3(WebDriver ldriver,String cssA,String cssB,String cssC) {
-		ldriver.findElement(By.cssSelector(".classOne")).sendKeys(cssA);
-		ldriver.findElement(By.cssSelector(".classTwo")).sendKeys(cssB);
-		ldriver.findElement(By.name("manOne")).sendKeys(cssC);
+		ldriver.findElement(By.cssSelector(".classOneA")).sendKeys(cssA);
+		ldriver.findElement(By.cssSelector(".classTwoB")).sendKeys(cssB);
+		ldriver.findElement(By.cssSelector(".classOneC")).sendKeys(cssC);
 		
 	}
 	void EnterCSSValue1_4(WebDriver ldriver,String cssA1,String cssB1,String cssC1,String cssD1,String cssE1) {
-		ldriver.findElement(By.xpath("(//input[@type='text'])[5]")).sendKeys(cssA1);
-		ldriver.findElement(By.xpath("(//input[@type='text'])[6]")).sendKeys(cssB1);
-		ldriver.findElement(By.xpath("(//input[@type='text'])[7]")).sendKeys(cssC1);
-		ldriver.findElement(By.xpath("(//input[@type='text'])[8]")).sendKeys(cssD1);
-		ldriver.findElement(By.xpath("(//input[@type='text'])[9]")).sendKeys(cssE1);
+		ldriver.findElement(By.cssSelector(".classOneA1")).sendKeys(cssA1);
+		ldriver.findElement(By.cssSelector(".classTwoB1")).sendKeys(cssB1);
+		ldriver.findElement(By.cssSelector(".classOneC1")).sendKeys(cssC1);
+		ldriver.findElement(By.cssSelector(".classOneD1")).sendKeys(cssD1);
+		ldriver.findElement(By.cssSelector(".classTwoE1")).sendKeys(cssE1);
 		
 	}
 	void PrintText(WebDriver lDriver) {
